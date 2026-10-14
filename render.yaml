@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: sawan-pratibha-wedding
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT --proxy-headers
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: DATABASE_URL
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: OPENROUTER_MODEL
+        value: google/gemini-2.5-flash
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: PINECONE_INDEX_HOST
+        sync: false
+      - key: PINECONE_NAMESPACE
+        value: wedding-family

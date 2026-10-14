@@ -1,0 +1,39 @@
+{
+  "removed_files": [
+    {
+      "file": "couple1.jpg",
+      "bytes": 185976
+    },
+    {
+      "file": "wedding-homepage-theme.png",
+      "bytes": 2294867
+    },
+    {
+      "file": "WhatsApp Image 2026-10-09 at 2.32.36 AM.jpeg",
+      "bytes": 133124
+    },
+    {
+      "file": "photo1.jpg",
+      "bytes": 169861
+    },
+    {
+      "file": "photo3.jpg",
+      "bytes": 146568
+    },
+    {
+      "file": "photo2.jpg",
+      "bytes": 155582
+    },
+    {
+      "file": "ChatGPT Image Oct 10, 2026, 01_09_08 PM.jpg",
+      "bytes": 490275
+    },
+    {
+      "file": "WhatsApp Image 2026-10-09 at 1.07.42 AM.jpeg",
+      "bytes": 152889
+    }
+  ],
+  "removed_count": 8,
+  "removed_bytes": 3729142,
+  "note": "Conservative reference scan. Dynamic family images and WebP assets retained to prevent broken pages."
+}

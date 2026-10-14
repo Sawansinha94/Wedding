@@ -1,0 +1,16 @@
+/* Small, face-centered portraits: prevent tall original photos from showing shoulders only. */
+#family-tree .tree-avatar {display:block!important;overflow:hidden!important;aspect-ratio:1!important;flex-shrink:0!important;background:#fff8ed;}
+#family-tree .tree-avatar img {width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;display:block!important;transform:none!important;}
+#family-tree .tree-generation {overflow:visible!important;}
+#family-tree .tree-member {min-width:0;}
+/* Keep rephrase controls absent until a meaningful message is present. */
+#wish-rephrase[hidden],#rsvp-rephrase[hidden]{display:none!important;}
+/* Premium legibility for the two image-backed blessing cards. */
+#our-story .person{isolation:isolate;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px;overflow:hidden;min-height:440px!important;padding:clamp(26px,4vw,48px)!important;box-shadow:0 16px 35px rgba(72,34,30,.12);}
+#our-story .person::before{opacity:.83!important;background-size:cover!important;background-position:center 34%!important;}
+#our-story .person::after{background:linear-gradient(180deg,rgba(255,250,243,.86) 0%,rgba(255,250,243,.79) 34%,rgba(255,250,243,.72) 60%,rgba(255,250,243,.88) 100%)!important;}
+#our-story .person .role{font-size:clamp(12px,1.15vw,15px)!important;font-weight:800!important;letter-spacing:.2em!important;color:#884e21!important;text-shadow:0 1px 3px #fffaf5!important;}
+#our-story .person h3{font-family:'Cormorant Garamond',Georgia,serif!important;font-size:clamp(53px,5.5vw,76px)!important;font-weight:700!important;line-height:1!important;color:#6d1737!important;text-shadow:0 2px 9px rgba(255,251,244,.9)!important;margin:8px 0 12px!important;}
+#our-story .person p{font-size:clamp(16px,1.5vw,20px)!important;line-height:1.75!important;font-weight:600!important;color:#3d2830!important;max-width:390px;text-wrap:balance;margin:0!important;text-shadow:0 1px 7px #fffaf4!important;}
+#our-story .person p strong{color:#681e36!important;font-weight:800!important;}
+@media(max-width:700px){#our-story .person{min-height:370px!important;padding:30px 18px!important;}#our-story .person h3{font-size:clamp(54px,11vw,69px)!important;}#our-story .person p{font-size:clamp(16px,4vw,19px)!important;}#our-story .person::before{background-position:center 30%!important;}}

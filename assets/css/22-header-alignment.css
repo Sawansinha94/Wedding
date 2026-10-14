@@ -1,0 +1,12 @@
+/* Stable header alignment: brand left, navigation center, music far right. */
+.wedding-header .nav{max-width:100%;width:100%;display:flex;align-items:center;flex-wrap:nowrap;gap:clamp(8px,1.2vw,20px);padding:8px clamp(12px,2vw,36px);min-height:84px}
+.wedding-header .brand-logo{flex:0 0 auto;min-width:0}
+.wedding-header .brand-logo img{width:60px!important;height:60px!important}
+.wedding-header .wedding-brand-title{font-size:clamp(21px,1.9vw,30px)}
+.wedding-header .navlinks{flex:1 1 auto;min-width:0;display:flex;flex-wrap:nowrap;justify-content:flex-end;align-items:center;gap:clamp(7px,.85vw,16px);font-size:clamp(9px,.68vw,11px);letter-spacing:.02em}
+.wedding-header .navlinks a{white-space:nowrap}
+.wedding-header .wedding-music-toggle{order:10!important;margin-left:4px;flex:0 0 42px;width:42px;height:42px;position:relative;z-index:2}
+.wedding-header .nav-toggle{order:9;margin-left:auto}
+@media(max-width:1350px){.wedding-header .nav-toggle{display:inline-flex!important}.wedding-header .navlinks{display:none!important;position:absolute;top:100%;left:12px;right:12px;width:auto;max-height:min(70vh,560px);overflow-y:auto;flex-direction:column;align-items:stretch;gap:0;background:#fffaf4;border:1px solid #ead8c2;border-radius:14px;padding:8px 14px;box-shadow:0 18px 32px #381f2024}.wedding-header .navlinks.is-open{display:flex!important}.wedding-header .navlinks a{display:block;padding:13px 10px;font-size:12px;border-bottom:1px solid #efe4d5}.wedding-header .nav{position:relative}.wedding-header .wedding-music-toggle{margin-left:0}}
+@media(max-width:600px){.wedding-header .nav{padding:6px 10px;gap:7px;min-height:68px}.wedding-header .brand-logo img{width:48px!important;height:48px!important}.wedding-header .wedding-brand-title{font-size:22px}.wedding-header .wedding-brand-title small{font-size:6px;letter-spacing:.09em}.wedding-header .nav-toggle{font-size:11px;padding:8px 9px;min-height:38px}.wedding-header .wedding-music-toggle{flex-basis:36px;width:36px;height:36px;font-size:20px}}
+@media(max-width:360px){.wedding-header .wedding-brand-title{font-size:18px}.wedding-header .brand-logo img{width:42px!important;height:42px!important}.wedding-header .nav-toggle{font-size:10px;padding:7px}}

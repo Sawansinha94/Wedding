@@ -1,0 +1,21 @@
+
+/* Premium four-language invitation entrance */
+#wedding-entry{background:radial-gradient(ellipse at 50% -15%,#fffdf6 0%,#f9eadb 43%,#e9c7ab 100%);isolation:isolate}
+#wedding-entry:before,#wedding-entry:after{content:'❧';position:fixed;font:clamp(120px,22vw,300px) Georgia,serif;color:#a8794930;pointer-events:none;z-index:-1}
+#wedding-entry:before{left:-3vw;top:5vh;transform:rotate(-26deg)}#wedding-entry:after{right:-3vw;bottom:2vh;transform:rotate(152deg)}
+#wedding-entry .wedding-entry-card{width:min(94vw,530px);padding:clamp(24px,5vw,44px);border:1px solid #d5af79;border-radius:26px;background:linear-gradient(145deg,#fffdf9ee,#fff5e9f5);box-shadow:0 26px 90px #5d24372e, inset 0 0 0 5px #fff8ed;max-height:calc(100dvh - 28px);overflow:auto}
+#wedding-entry .wedding-entry-card:before{display:none}
+.entry-logo{width:clamp(92px,20vw,132px);height:clamp(92px,20vw,132px);object-fit:contain;display:block;margin:4px auto 8px;filter:drop-shadow(0 7px 11px #693e3322)}
+.entry-ornament{font-size:13px;letter-spacing:.2em;color:#b07b40}.entry-kicker{font-size:11px;font-weight:700;letter-spacing:.23em;color:#a5794c;margin:9px 0 4px}
+.entry-couple{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(35px,8vw,52px);font-weight:700;line-height:1.08;color:#67213b}.entry-couple span{font-size:21px;color:#c3945b;vertical-align:middle}
+#wedding-entry-heading{font-size:clamp(21px,5vw,27px);margin:12px 0 5px}
+.entry-language-title{font-weight:700;margin:18px 0 10px;color:#723b49}
+.entry-language-options{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+#wedding-entry .entry-lang{margin:0;border:1px solid #d8bfa1;background:#fffaf4;color:#63354b;border-radius:13px;padding:11px 3px;font-size:clamp(12px,2.7vw,15px);font-weight:700;min-width:0}
+#wedding-entry .entry-lang.active{background:#6d2844;color:#fff;border-color:#6d2844;box-shadow:0 4px 12px #6d284433}
+#wedding-entry .entry-lang:focus-visible,.site-language-wrap select:focus-visible{outline:3px solid #d3a55e;outline-offset:2px}
+#wedding-entry .wedding-entry-card label{margin-top:17px}
+.site-language-wrap{display:flex;align-items:center;gap:4px;border:1px solid #d5ad79;border-radius:999px;padding:5px 8px;background:#fff9f0;color:#6a2b40;flex-shrink:0}
+.site-language-wrap select{background:transparent;color:#68283e;border:0;font:600 12px 'DM Sans',sans-serif;max-width:94px;cursor:pointer}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:700px){.site-language-wrap{padding:4px}.site-language-wrap select{max-width:73px;font-size:11px}.entry-language-options{gap:5px}#wedding-entry .wedding-entry-card{padding:20px 17px}}
