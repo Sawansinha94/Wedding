@@ -1,1 +1,0 @@
-Browser SpeechSynthesis fallback removed. Chrome SpeechRecognition may still transcribe microphone input; speech OUTPUT always comes from /api/voice/speak neural TTS. If neural TTS fails, show an explicit error instead of silently switching to system voice. Floating animated waveform appears during active voice sessions. Requires edge-tts and outbound network.

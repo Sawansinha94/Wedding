@@ -1,6 +1,0 @@
-/* Calendar action below each ceremony title */
-.ceremony-calendar-button{display:inline-flex;align-items:center;justify-content:center;gap:9px;margin:12px 0 14px;padding:10px 17px;border:1px solid #c59b4a;border-radius:999px;background:#fff7e6;color:#8d3b18;font:600 13px/1.25 inherit;letter-spacing:.01em;cursor:pointer;box-shadow:0 4px 12px rgba(114,69,21,.08);transition:transform .2s,background .2s,box-shadow .2s}
-.ceremony-calendar-button:hover{transform:translateY(-2px);background:#ffecc0;box-shadow:0 7px 18px rgba(114,69,21,.14)}
-.ceremony-calendar-button:focus-visible{outline:3px solid #ab6d1d;outline-offset:3px}
-.ceremony-calendar-button span{font-size:17px}
-@media(max-width:640px){.ceremony-calendar-button{font-size:12px;padding:10px 14px;max-width:100%}}

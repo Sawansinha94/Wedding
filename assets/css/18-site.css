@@ -1,8 +1,0 @@
-
-.wedding-header .brand-logo{gap:15px;line-height:1.1}
-.wedding-header .wedding-brand-title{display:flex;flex-direction:column;align-items:flex-start;white-space:nowrap;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(27px,2.55vw,39px);font-weight:600;letter-spacing:-.035em;color:#641c34;line-height:.91;text-shadow:0 1px 0 #fff7ef}
-.wedding-header .wedding-brand-title em{font-weight:600;font-style:italic;color:#aa7a38;letter-spacing:-.025em}
-.wedding-header .wedding-brand-title small{margin-top:9px;font:700 8px/1.2 'DM Sans',sans-serif;letter-spacing:.23em;color:#7c4c4d}
-@media(max-width:1180px){.wedding-header .brand-logo{gap:10px}.wedding-header .wedding-brand-title{font-size:29px}}
-@media(max-width:980px){.wedding-header .wedding-brand-title{font-size:31px}}
-@media(max-width:380px){.wedding-header .brand-logo{gap:7px}.wedding-header .wedding-brand-title{font-size:26px}.wedding-header .wedding-brand-title small{font-size:7px;letter-spacing:.13em}}

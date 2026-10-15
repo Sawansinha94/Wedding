@@ -1,6 +1,0 @@
-
-/* Real engagement portrait in the marriage-story timeline */
-.story-engagement-photo{margin:0;position:relative;overflow:hidden;border:4px solid #f2d78a;border-radius:35px;background:#fff4e8;box-shadow:0 12px 22px #3e2a0b20;aspect-ratio:1.18/1;min-height:330px}
-.story-engagement-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 27%}
-.story-engagement-photo figcaption{position:absolute;inset:auto 0 0;padding:34px 14px 17px;background:linear-gradient(transparent,rgba(49,18,23,.78));color:#fffaf0;text-align:center;font:600 clamp(20px,2.3vw,29px) 'Cormorant Garamond',Georgia,serif;letter-spacing:.025em}
-@media(max-width:800px){.story-engagement-photo{min-height:270px;aspect-ratio:1/1.08}}
