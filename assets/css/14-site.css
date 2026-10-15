@@ -1,0 +1,34 @@
+/* Independent family photo placeholders */
+.tree-avatar-family {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+.tree-avatar-family img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 50%;
+  display: block;
+}
+#family-tree .tree-avatar {
+  width: 95px;
+  height: 95px;
+}
+@media (max-width: 760px) {
+  #family-tree .tree-avatar {
+    width: 78px;
+    height: 78px;
+  }
+}
+.tree-avatar-family.family-photo-missing::after {
+  content: "❀";
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #bb9252;
+  font-size: 23px;
+}

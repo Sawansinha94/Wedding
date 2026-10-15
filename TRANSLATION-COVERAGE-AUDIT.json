@@ -1,0 +1,15 @@
+{
+  "catalog_entries": 346,
+  "catalog_missing_languages": {
+    "hi": [],
+    "or": [],
+    "te": []
+  },
+  "html_text_nodes_unique": 249,
+  "untranslated_html_visible_strings": [],
+  "excluded_from_translation": [
+    "language selector option labels",
+    "HTML language attribute",
+    "document title"
+  ]
+}

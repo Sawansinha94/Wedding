@@ -1,0 +1,162 @@
+/* Mobile-first refinement: comfortable text, complete portraits and chronological story */
+.story-step {
+  display: contents;
+}
+#story .story-step .story-photo-slot.story-photo-new-beginning img {
+  object-fit: contain !important;
+  object-position: center bottom !important;
+  inset: 0 0 48px !important;
+  height: calc(100% - 48px) !important;
+}
+@media (max-width: 800px) {
+  html {
+    scroll-padding-top: 85px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  img {
+    max-width: 100%;
+  }
+  .container,
+  section {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .reference-heading h2,
+  .section-heading h2 {
+    font-size: clamp(35px, 8.2vw, 53px) !important;
+    line-height: 1.13 !important;
+    overflow-wrap: normal;
+  }
+  .reference-heading p,
+  .section-heading p {
+    font-size: clamp(15px, 3.7vw, 18px) !important;
+    line-height: 1.7 !important;
+  }
+  #story {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  #story .story-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 26px !important;
+    max-width: 620px !important;
+    margin: 28px auto 0 !important;
+  }
+  #story .story-step {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+    overflow: hidden;
+    border: 1.5px solid #e9cb85;
+    border-radius: 26px;
+    background: #fffaf5;
+    box-shadow: 0 12px 30px #6a3c2417;
+  }
+  #story .story-step .story-text {
+    order: 1 !important;
+    width: 100% !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 25px 23px 20px !important;
+    background: transparent !important;
+  }
+  #story .story-step .story-photo-slot {
+    order: 2 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-top: 1px solid #f0d7ac !important;
+    border-radius: 0 !important;
+    min-height: 0 !important;
+    aspect-ratio: 4/3 !important;
+    box-shadow: none !important;
+  }
+  #story .story-step .story-photo-slot img {
+    object-fit: cover !important;
+    object-position: center 32% !important;
+  }
+  #story .story-step .story-text h3 {
+    font-size: clamp(29px, 7.5vw, 39px) !important;
+    line-height: 1.14 !important;
+    margin: 13px 0 !important;
+  }
+  #story .story-step .story-text p {
+    font-size: 16px !important;
+    line-height: 1.75 !important;
+    color: #5f5864 !important;
+  }
+  #story .story-step .story-text span {
+    font-size: 12px !important;
+  }
+  #story .couple-story-feature {
+    max-width: 620px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #story .couple-story-photo-wrap {
+    height: auto !important;
+    aspect-ratio: 4/4.5 !important;
+    max-height: 540px !important;
+  }
+  #story .couple-story-photo-wrap img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    object-position: center 26% !important;
+  }
+  #story .couple-story-feature figcaption strong {
+    font-size: clamp(27px, 7vw, 42px) !important;
+    line-height: 1.12 !important;
+  }
+  .desktop-only {
+    display: none !important;
+  }
+  .family-panels,
+  .family-panel {
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+  .tree-generation {
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+  .tree-member {
+    flex-shrink: 0;
+  }
+  input,
+  select,
+  textarea,
+  button {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 480px) {
+  #story {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  #story .story-step .story-text {
+    padding: 23px 20px 18px !important;
+  }
+  #story .story-step .story-photo-slot {
+    aspect-ratio: 5/4 !important;
+  }
+  .reference-heading,
+  .section-heading {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #story .story-step *,
+  #story .story-step {
+    animation: none !important;
+    transition: none !important;
+  }
+}

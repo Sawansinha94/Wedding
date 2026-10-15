@@ -1,0 +1,66 @@
+.concierge-quick-link{display:inline-flex;align-items:center;gap:.4rem;border:1px solid #cda76c;border-radius:99px;padding:.5rem .8rem;color:#5b352a;background:#fff7e9;text-decoration:none;font-weight:700;white-space:nowrap}.concierge-quick-link:hover{background:#f5e5cc}.concierge-mode-bar{display:flex;gap:.65rem;margin-top:1rem;flex-wrap:wrap}.concierge-mode{padding:.7rem 1.1rem;border:1px solid #d7c3aa;background:#fff;border-radius:99px;cursor:pointer;color:#583d32;font:inherit}.concierge-mode.active{background:#653d4d;color:white;border-color:#653d4d}.concierge-voice-panel{margin-top:1rem;padding:1.5rem;border-radius:1.25rem;background:linear-gradient(140deg,#fff8f1,#f6e5eb);text-align:center;border:1px solid #e8cdd1}.concierge-voice-panel[hidden]{display:none}.voice-orb{display:grid;place-items:center;margin:auto;width:88px;height:88px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f4b9c7,#8c536e 72%);box-shadow:0 0 0 9px #eacdd7;color:white;font-size:2rem;transition:transform .3s}.voice-orb.listening{animation:voicePulse 1.2s ease-in-out infinite}.voice-orb.speaking{animation:voicePulse .65s ease-in-out infinite}.voice-actions{display:flex;justify-content:center;gap:.7rem;flex-wrap:wrap;margin:1rem}.voice-actions button:disabled{opacity:.45;cursor:not-allowed}.concierge-voice-panel small{display:block;color:#725f65;line-height:1.5}@keyframes voicePulse{50%{transform:scale(1.12);box-shadow:0 0 0 16px #eacdd788}}@media(max-width:650px){.concierge-quick-link span{display:none}.concierge-quick-link{padding:.45rem .7rem}}
+/* Accessible polished mode selector */
+.concierge-mode-bar{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0 8px}
+.concierge-mode{appearance:none;border:1px solid #dec5b4;border-radius:999px;padding:12px 20px;font:600 15px/1.2 inherit;background:#fffaf5;color:#70213f;cursor:pointer;transition:transform .2s,background .2s,box-shadow .2s;box-shadow:0 3px 10px #55213b13}
+.concierge-mode:hover{transform:translateY(-2px);box-shadow:0 8px 18px #55213b20}
+.concierge-mode.active{background:linear-gradient(120deg,#752340,#9b4a61);color:#fff;border-color:#752340}
+.concierge-mode:focus-visible,.voice-actions button:focus-visible{outline:3px solid #d5a054;outline-offset:3px}
+.voice-actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.voice-actions button{border-radius:999px;padding:12px 22px;cursor:pointer}
+.voice-actions button:disabled{opacity:.48;cursor:not-allowed}
+
+.invite-access{padding:14px 16px;margin:14px 0;background:#fff8f1;border:1px solid #ead3bd;border-radius:16px}
+.invite-access label{display:block;color:#6d2942;font-weight:600;margin-bottom:7px}
+.invite-access-row{display:flex;gap:8px;flex-wrap:wrap}
+.invite-access-row input{flex:1;min-width:190px;padding:11px 13px;border:1px solid #d8c3b6;border-radius:11px}
+.invite-access-row button{background:#762541;color:white;border:0;border-radius:11px;padding:11px 16px;cursor:pointer}
+.invite-access small{display:block;margin-top:7px;color:#68575c}
+
+/* Match the main site button system for voice controls. */
+#concierge-talk-mode,#voice-stop{font:inherit;font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:.45rem;min-height:44px;transition:transform .2s,box-shadow .2s,filter .2s}
+#concierge-talk-mode:hover:not(:disabled),#voice-stop:hover:not(:disabled){transform:translateY(-2px)}
+#concierge-talk-mode.active{filter:brightness(.91)}
+
+/* Floating conversation visualizer: pure CSS, no browser speaker involved */
+body.wedding-voice-active .concierge-voice-panel{position:fixed;z-index:10050;bottom:22px;right:22px;width:min(340px,calc(100vw - 44px));margin:0;box-shadow:0 16px 55px #351c3150;backdrop-filter:blur(16px)}
+.voice-orb{width:116px;height:116px;box-shadow:0 0 0 9px #eacdd780,0 14px 35px #5e325850;overflow:hidden}
+.voice-wave-bars{display:flex;align-items:center;justify-content:center;gap:4px;height:54px}
+.voice-wave-bars i{display:block;width:5px;height:12px;background:#fff;border-radius:8px;opacity:.95;animation:voiceWave 1.1s ease-in-out infinite;animation-play-state:paused}
+.voice-orb.listening .voice-wave-bars i,.voice-orb.speaking .voice-wave-bars i{animation-play-state:running}
+.voice-wave-bars i:nth-child(2),.voice-wave-bars i:nth-child(6){animation-delay:-.2s}.voice-wave-bars i:nth-child(3),.voice-wave-bars i:nth-child(5){animation-delay:-.45s}.voice-wave-bars i:nth-child(4){animation-delay:-.7s}
+.voice-orb.speaking .voice-wave-bars i{animation-duration:.65s}
+@keyframes voiceWave{0%,100%{height:9px}50%{height:45px}}
+@media(prefers-reduced-motion:reduce){.voice-wave-bars i,.voice-orb{animation:none!important}}
+
+/* Show the floating panel as soon as Talk with us opens, not only after microphone starts. */
+body.wedding-voice-active #concierge-voice-panel:not([hidden]){display:block!important;position:fixed!important;z-index:2147483000!important;right:18px!important;bottom:18px!important;width:min(360px,calc(100vw - 36px))!important;max-height:calc(100dvh - 36px);overflow:auto;visibility:visible!important;opacity:1!important}
+body.wedding-voice-active #voice-orb{display:grid!important;visibility:visible!important}
+
+/* Accessible persistent voice dialog */
+#concierge-voice-panel[hidden]{display:none!important}
+body.wedding-voice-active #concierge-voice-panel:not([hidden]){display:flex!important;flex-direction:column;align-items:center;gap:10px;position:fixed!important;inset:auto 18px 18px auto!important;z-index:2147483000!important;background:linear-gradient(145deg,#fff9f5,#f5e3ee)!important;border:1px solid #dfbdd2;border-radius:24px;padding:22px 18px;box-shadow:0 20px 65px #28142d66}
+#voice-orb{flex-shrink:0;background:radial-gradient(circle at 30% 20%,#efbad3,#9e5a93 60%,#593f80)!important}
+body.wedding-voice-active #voice-orb .voice-wave-bars i{animation-play-state:running}
+@media(max-width:520px){body.wedding-voice-active #concierge-voice-panel:not([hidden]){inset:auto 12px 12px 12px!important;width:auto!important}}
+
+/* Compact in-page voice orb: never a modal or dialog. */
+body.wedding-voice-active #concierge-voice-panel:not([hidden]){position:fixed!important;inset:auto 16px calc(22px + env(safe-area-inset-bottom)) auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:5px!important;width:172px!important;max-height:none!important;overflow:visible!important;padding:16px 9px 11px!important;border:1px solid #dfbdd2!important;border-radius:26px!important;background:rgba(255,248,250,.96)!important;box-shadow:0 9px 32px #28142d35!important;z-index:10020!important;backdrop-filter:blur(12px)}
+body.wedding-voice-active #concierge-voice-panel #voice-orb{width:94px!important;height:94px!important;margin:4px auto!important;box-shadow:0 0 0 5px #eacdd788!important}
+body.wedding-voice-active #concierge-voice-panel #voice-state{font-size:11px!important;line-height:1.3!important;max-width:150px!important;max-height:40px!important;overflow:hidden!important;margin:3px 0!important;text-align:center!important;overflow-wrap:anywhere}
+body.wedding-voice-active #concierge-voice-panel .voice-actions{margin:3px 0 0!important;gap:5px!important;display:flex!important;flex-wrap:wrap!important}
+body.wedding-voice-active #concierge-voice-panel .voice-actions button{font-size:11px!important;padding:7px 9px!important;min-height:32px!important;line-height:1.2!important}
+#concierge-voice-panel .voice-close{position:absolute;right:6px;top:5px;width:30px;height:30px;border:0;background:transparent;color:#653d4d;font-size:25px;line-height:1;cursor:pointer;z-index:3;border-radius:50%}
+#concierge-voice-panel .voice-close:hover{background:#eed9e4}
+@media(max-width:600px){body.wedding-voice-active #concierge-voice-panel:not([hidden]){inset:auto 12px calc(85px + env(safe-area-inset-bottom)) auto!important;width:156px!important;padding:13px 6px 9px!important;border-radius:22px!important}body.wedding-voice-active #concierge-voice-panel #voice-orb{width:80px!important;height:80px!important}}
+
+/* Inline voice control: keep conversation visible on narrow screens. */
+.concierge-mode-bar{display:flex!important;align-items:center!important;flex-wrap:wrap!important;gap:10px!important}
+#concierge-talk-mode{flex:0 1 auto!important}
+#concierge-voice-panel:not([hidden]),body.wedding-voice-active #concierge-voice-panel:not([hidden]){position:relative!important;inset:auto!important;right:auto!important;bottom:auto!important;top:auto!important;left:auto!important;display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-start!important;flex-wrap:wrap!important;gap:7px!important;width:auto!important;max-width:100%!important;max-height:none!important;overflow:visible!important;margin:0!important;padding:2px 30px 2px 3px!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;backdrop-filter:none!important;z-index:auto!important}
+#concierge-voice-panel #voice-orb,body.wedding-voice-active #concierge-voice-panel #voice-orb{width:52px!important;height:52px!important;margin:0 5px!important;box-shadow:0 0 0 3px #eacdd788!important}
+#concierge-voice-panel .voice-wave-bars{transform:scale(.58)}
+#concierge-voice-panel #voice-state,body.wedding-voice-active #concierge-voice-panel #voice-state{font-size:11px!important;max-width:125px!important;line-height:1.25!important;margin:0!important}
+#concierge-voice-panel .voice-actions,body.wedding-voice-active #concierge-voice-panel .voice-actions{display:flex!important;flex-wrap:wrap!important;gap:5px!important;margin:0!important}
+#concierge-voice-panel .voice-actions button,body.wedding-voice-active #concierge-voice-panel .voice-actions button{min-height:30px!important;padding:5px 8px!important;font-size:11px!important;line-height:1.2!important}
+#concierge-voice-panel .voice-close{right:0!important;top:0!important}
+@media(max-width:600px){.concierge-mode-bar{gap:8px!important}#concierge-talk-mode{font-size:12px!important;padding:9px 12px!important;min-height:44px!important}#concierge-voice-panel:not([hidden]),body.wedding-voice-active #concierge-voice-panel:not([hidden]){flex:1 1 150px!important;padding-right:24px!important}#concierge-voice-panel #voice-state{flex:1 1 90px!important}#concierge-voice-panel .voice-actions{flex:1 1 100%!important}}

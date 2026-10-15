@@ -1,0 +1,1 @@
+Changes: inline voice controls beside Talk with us (no fixed overlay), 20-second AI request timeout, phonetic-friendly familiarity answers. These answers are not authentication and must not authorize private profile access. Restart backend and hard refresh browser.

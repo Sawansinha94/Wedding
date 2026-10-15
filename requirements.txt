@@ -1,0 +1,10 @@
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+httpx>=0.27,<1
+python-dotenv>=1,<2
+psycopg[binary]>=3.2,<4
+pinecone>=7,<9
+python-multipart>=0.0.9,<1
+faster-whisper>=1.1,<2
+edge-tts>=7,<9
+boto3>=1.35,<2
