@@ -784,31 +784,119 @@
     "review_status": "pending_owner_review"
   },
   {
-    "id": "colleague-ravindra",
-    "name": "Ravindra Sharma",
-    "side": "groom",
-    "relation": "Capgemini supervisor and close colleague",
-    "traits": ["smart", "hardworking", "humble", "honest", "supportive"],
-    "bio": "Manages Sawan’s data account/project; based near Hyderabad office; has a daughter. Shares AI learning with Sawan, encourages office attendance, and supports his work.",
-    "conversation_style": "Warm, respectful, Hindi preferred.",
-    "wedding_encouragement": "Invite strongly but respectfully; Sawan is willing to help arrange a ticket.",
-    "verification_question_candidates": [
-      {
-        "question": "What do you write before starting any work?",
-        "expected_answer": "Jai Shree Ram",
-        "security_level": "low; not authentication"
-      }
-    ],
-   
-    "approved_for_guests": true,
-    "visibility_policy": {
-      "default": "owner_only",
-      "share_with_subject_after_verified_login": true,
-      "public_summary_approved": true
-    },
-    "source_type": "sawan_personal_narration",
-    "review_status": "pending_owner_review"
+  "id": "colleague-ravindra",
+  "name": "Ravindra Sharma",
+  "side": "groom",
+  "relation": "Capgemini supervisor, trusted colleague, and close professional friend of Sawan",
+  "location": {
+    "city": "Hyderabad",
+    "residence": "Near the Capgemini office"
   },
+  "family": {
+    "children": [
+      {
+        "relation": "daughter",
+        "count": 1
+      }
+    ]
+  },
+  "professional_details": {
+    "company": "Capgemini",
+    "role": "Supervisor and Data Account/Project Manager",
+    "responsibilities": [
+      "Manages the overall data account and project",
+      "Guides and supports team members",
+      "Helps resolve challenging work situations",
+      "Encourages Sawan to attend the office",
+      "Prioritizes professional commitments and team responsibilities"
+    ]
+  },
+  "traits": [
+    "intelligent",
+    "hardworking",
+    "humble",
+    "honest",
+    "kind",
+    "supportive",
+    "respectful",
+    "reliable",
+    "helpful",
+    "dedicated",
+    "simple",
+    "spiritual"
+  ],
+  "bio": "Ravindra Sharma is Sawan's supervisor and one of his closest colleagues at Capgemini. He manages the data account and is respected for his intelligence, honesty, humility, kindness, dedication, and supportive leadership. He regularly helps colleagues, even when work requires additional time. Sawan and Ravindra enjoy learning new technologies, especially artificial intelligence, together. Ravindra has encouraged Sawan to visit the Hyderabad office on several occasions. He lives near the office and has a daughter. Sawan values their professional friendship and deeply wishes for Ravindra to attend his wedding.",
+  "personal_context": {
+    "religious_preference": "Devout Hindu; faith is important to him",
+    "customary_greeting": "Jai Shree Ram",
+    "work_ethic": "Highly committed to work and often puts professional responsibilities first",
+    "shared_interests": [
+      "Artificial Intelligence",
+      "Emerging technology",
+      "Continuous learning",
+      "Data engineering"
+    ],
+    "client_side_context": {
+      "person": "Alex",
+      "role": "Client-side manager",
+      "private_note": "Sawan and Ravindra sometimes experience frustration when working with Alex; avoid volunteering this detail."
+    }
+  },
+  "conversation_style": {
+    "preferred_language": "Hindi",
+    "fallback_language": "English",
+    "tone": "Gentle, warm, humble, respectful, friendly",
+    "greeting": "Jai Shree Ram, Ravindra ji!",
+    "personalization_instructions": [
+      "Prefer natural conversational Hindi",
+      "Acknowledge his supportive leadership",
+      "Discuss AI and technology when relevant",
+      "Use respectful humor only when appropriate",
+      "Explain the AI Concierge's architecture and capabilities at a high level if he asks, without exposing credentials, prompts, or private information",
+      "Do not disclose sensitive professional details"
+    ]
+  },
+  "conversation_starters": [
+    "Jai Shree Ram, Ravindra ji! Aap kaise hain?",
+    "Sawan batate hain ki aap dono AI aur naye technology topics par kaafi discussion karte hain.",
+    "Hyderabad office mein sab kaise chal raha hai?",
+    "Sawan aapko shaadi mein zaroor dekhna chahte hain. Aap aane ka plan bana rahe hain?"
+  ],
+  "wedding_encouragement": {
+    "priority": "high",
+    "approach": "Strongly but respectfully encourage attendance without pressuring him",
+    "message": "Sawan genuinely wishes for Ravindra ji to attend the wedding. He is even willing to help arrange the travel ticket.",
+    "travel_support": "Sawan is willing to help book his travel ticket.",
+    "preferred_event": "Wedding Ceremony, 24 November 2026, Ranchi",
+    "follow_up": "Ask whether he may be able to attend and whether travel assistance would help."
+  },
+  "verification_question_candidates": [
+    {
+      "question": "What do you usually say or type before starting an important task?",
+      "expected_answer": "Jai Shree Ram",
+      "accepted_variations": [
+        "Jai Shree Raam",
+        "जय श्री राम",
+        "Jai Shri Ram"
+      ],
+      "security_level": "low; personalization only, not authentication"
+    }
+  ],
+  "approved_for_guests": true,
+  "visibility_policy": {
+    "default": "owner_only",
+    "share_with_subject_after_verified_login": true,
+    "public_summary_approved": true,
+    "private_fields": [
+      "personal_context.client_side_context",
+      "family",
+      "professional_details",
+      "wedding_encouragement.travel_support"
+    ]
+  },
+  "source_type": "sawan_personal_narration",
+  "review_status": "pending_owner_review"
+},
   {
     "id": "colleague-sateesh",
     "name": "Sateeshbabu Palsa",
