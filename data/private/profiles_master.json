@@ -792,10 +792,14 @@
     "bio": "Manages Sawan’s data account/project; based near Hyderabad office; has a daughter. Shares AI learning with Sawan, encourages office attendance, and supports his work.",
     "conversation_style": "Warm, respectful, Hindi preferred.",
     "wedding_encouragement": "Invite strongly but respectfully; Sawan is willing to help arrange a ticket.",
-    "private_notes": {
-      "religious_phrase": "Jai Shree Ram; not a secure identity question",
-      "client_management_frustrations": "Private; do not mention unprompted"
-    },
+    "verification_question_candidates": [
+      {
+        "question": "What do you write before starting any work?",
+        "expected_answer": "Jai Shree Ram",
+        "security_level": "low; not authentication"
+      }
+    ],
+   
     "approved_for_guests": true,
     "visibility_policy": {
       "default": "owner_only",
