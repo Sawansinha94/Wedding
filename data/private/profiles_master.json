@@ -1,7 +1,7 @@
 [
   {
     "id": "colleague-sandhya",
-    "name": "Sandhya",
+    "name": "Boini Sandhya",
     "side": "groom",
     "relation": "Sawan's office colleague",
     "aliases": [],
@@ -48,7 +48,7 @@
   },
   {
     "id": "colleague-subhangi",
-    "name": "Subhangi",
+    "name": "Subhangi Gupta",
     "side": "groom",
     "relation": "Sawan's junior office colleague for over one year",
     "aliases": [],
@@ -101,7 +101,7 @@
   },
   {
     "id": "colleague-subhashree",
-    "name": "Subhashree",
+    "name": "Ayitha Subhashree",
     "side": "groom",
     "relation": "Sawan's junior office colleague",
     "aliases": [],
@@ -141,7 +141,7 @@
   },
   {
     "id": "colleague-vamsee",
-    "name": "Vamsee",
+    "name": "Vamsee Gaddam",
     "aliases": [],
     "side": "groom",
     "relation": "Longtime Capgemini colleague, former supervisor, mentor and close friend",
@@ -185,7 +185,7 @@
   },
   {
     "id": "colleague-gaurav",
-    "name": "Gaurav",
+    "name": "Gaurav Mishra",
     "aliases": [],
     "side": "groom",
     "relation": "Onsite manager and visa-process supporter",
@@ -212,7 +212,7 @@
   },
   {
     "id": "colleague-anusuya",
-    "name": "Anusuya",
+    "name": "Anusuya G",
     "aliases": [],
     "side": "groom",
     "relation": "Longtime project colleague",
@@ -231,7 +231,7 @@
   },
   {
     "id": "colleague-sainath",
-    "name": "Sainath",
+    "name": "Sainath Nawathe",
     "aliases": [],
     "side": "groom",
     "relation": "Capgemini colleague and team manager",
@@ -250,7 +250,7 @@
   },
   {
     "id": "colleague-ranga",
-    "name": "Ranga",
+    "name": "Ranga Babu Vemula",
     "aliases": [],
     "side": "groom",
     "relation": "Senior onshore colleague",
@@ -296,7 +296,7 @@
   },
   {
     "id": "colleague-venkatesh",
-    "name": "Venkatesh",
+    "name": "Venkatesh Gadige",
     "aliases": [],
     "side": "groom",
     "relation": "Close colleague, treats Sawan like a brother",
@@ -323,7 +323,7 @@
   },
   {
     "id": "colleague-varshini",
-    "name": "Varshini",
+    "name": "Varshini M",
     "aliases": [],
     "side": "groom",
     "relation": "Longtime colleague, formerly worked together in UDP",
@@ -342,7 +342,7 @@
   },
   {
     "id": "colleague-gopi",
-    "name": "Gopi",
+    "name": "Gopi Thokala",
     "aliases": [],
     "side": "groom",
     "relation": "Senior colleague on Sawan's team",
@@ -399,7 +399,7 @@
   },
   {
     "id": "friend-pranav",
-    "name": "Pranav",
+    "name": "Pranav Ranjan",
     "aliases": [],
     "side": "groom",
     "relation": "Very close friend since B.Tech college",
@@ -425,7 +425,7 @@
   },
   {
     "id": "friend-rajnish",
-    "name": "Rajnish",
+    "name": "Rajnish Kumar",
     "side": "groom",
     "relation": "Close B.Tech friend and former work colleague",
     "aliases": [],
@@ -451,7 +451,7 @@
   },
   {
     "id": "friend-hritik",
-    "name": "Hritik",
+    "name": "Hritik Padigela",
     "side": "groom",
     "relation": "Close friend and former roommate (2023–2025)",
     "aliases": ["Ritik", "Hrithik"],
@@ -517,7 +517,7 @@
   },
   {
     "id": "friend-aamir",
-    "name": "Aamir",
+    "name": "Aamir Hayat",
     "side": "groom",
     "relation": "B.Tech classmate of four years",
     "aliases": ["Ameer", "Amir"],
@@ -536,7 +536,7 @@
   },
   {
     "id": "friend-rajan",
-    "name": "Rajan",
+    "name": "Rajan Kumar Jha",
     "side": "groom",
     "relation": "B.Tech friend and former Wipro colleague",
     "aliases": [],
@@ -611,7 +611,7 @@
   },
   {
     "id": "friend-hitesh",
-    "name": "Hitesh",
+    "name": "Hitesh Mukherjee",
     "side": "groom",
     "relation": "B.Tech friend from mechanical branch",
     "aliases": [],
@@ -630,7 +630,7 @@
   },
   {
     "id": "friend-amarjeet",
-    "name": "Amarjeet",
+    "name": "Amarjeet Kumar Singh",
     "side": "groom",
     "relation": "Very close B.Tech friend and former college bedmate",
     "aliases": ["Amarjit"],
@@ -656,7 +656,7 @@
   },
   {
     "id": "friend-prince",
-    "name": "Prince",
+    "name": "Prince Kumar",
     "side": "groom",
     "relation": "Close B.Tech friend now working in Bihar",
     "aliases": [],
@@ -708,7 +708,7 @@
   },
   {
     "id": "friend-binod",
-    "name": "Binod",
+    "name": "Binod Kumar",
     "side": "groom",
     "relation": "B.Tech robotics project teammate",
     "aliases": ["Vinod"],
@@ -734,7 +734,7 @@
   },
   {
     "id": "friend-anjar",
-    "name": "Anjar",
+    "name": "Anjar Shekh",
     "side": "groom",
     "relation": "Elder-brother-like family friend; friend of Sawan’s elder brother",
     "aliases": [],
@@ -756,7 +756,7 @@
   },
   {
     "id": "friend-jayanta",
-    "name": "Jayanta",
+    "name": "Jayanta Patra",
     "side": "groom",
     "relation": "Close B.Tech friend from Odisha, formerly at Wipro",
     "aliases": [],
@@ -785,7 +785,7 @@
   },
   {
     "id": "colleague-ravindra",
-    "name": "Ravindra",
+    "name": "Ravindra Sharma",
     "side": "groom",
     "relation": "Capgemini supervisor and close colleague",
     "traits": ["smart", "hardworking", "humble", "honest", "supportive"],
@@ -807,7 +807,7 @@
   },
   {
     "id": "colleague-sateesh",
-    "name": "Sateesh",
+    "name": "Sateeshbabu Palsa",
     "side": "groom",
     "relation": "Close colleague who treats Sawan like a brother",
     "traits": ["family-oriented", "friendly", "helpful"],
@@ -832,7 +832,7 @@
   },
   {
     "id": "colleague-lokesh",
-    "name": "Lokesh",
+    "name": " Vanaboina Lokesh",
     "side": "groom",
     "relation": "Colleague for five years",
     "traits": ["hardworking", "diligent", "helpful", "cheerful", "independent"],
@@ -969,7 +969,7 @@
     "private_notes": {
       "alternate_question": "How close were the Capgemini and ICICI buildings in Hyderabad? Answer: across the road, roughly 100–300 metres."
     },
-    "aliases": [],
+    "aliases": ["Monika"],
     "approved_for_guests": true,
     "visibility_policy": {
       "default": "owner_only",
@@ -1009,7 +1009,7 @@
     "private_notes": {
       "name_uncertainty": "User briefly said Monika then corrected to Amrita; use Amrita."
     },
-    "aliases": ["Sourav", "Saurabh"],
+    "aliases": ["Saurabh"],
     "approved_for_guests": true,
     "name_matching": {
       "preferred_spelling": "Saurabh",
@@ -1024,8 +1024,8 @@
     "review_status": "pending_owner_review"
   },
   {
-    "id": "family-ajit-kumar-sinha",
-    "name": "Ajit Kumar Sinha",
+    "id": "family-ajeet-kumar-sinha",
+    "name": "Ajeet Kumar Sinha",
     "side": "groom",
     "relation": "Paternal uncle, father of Prisha and Harshit, husband of Niva Kumari",
     "traits": [
@@ -1048,7 +1048,7 @@
     "verification_question_candidates": [
       {
         "question": "How much money you send Sawan last time?",
-        "expected_answer": "About ₹40,000",
+        "expected_answer": "40000",
         "security_level": "low; not authentication"
       }
     ],
@@ -1087,7 +1087,7 @@
   },
   {
     "id": "family-prisha",
-    "name": "Prisha",
+    "name": "Prisha Kumari",
     "side": "groom",
     "relation": "Young cousin sister; daughter of Ajit and Niva",
     "traits": ["talkative", "intelligent", "curious", "creative", "energetic"],
@@ -1111,7 +1111,7 @@
   },
   {
     "id": "family-harshit",
-    "name": "Harshit",
+    "name": "Harshit Kuamr",
     "side": "groom",
     "relation": "Young cousin brother; son of Ajit and Niva",
     "traits": ["naughty", "expressive", "playful", "handsome"],
@@ -1120,7 +1120,7 @@
     "wedding_encouragement": "Make him feel included in the celebrations, with age-appropriate fun.",
     "approved_for_guests": true,
     "age": 3,
-    "aliases": ["Gannu"],
+    "aliases": ["Gannu", "Tutu"],
     "private_notes": {
       "minor": true,
       "child_safety": "No familiarity authentication; do not share private data."
@@ -1135,7 +1135,7 @@
   },
   {
     "id": "family-shreya-kumari",
-    "name": "Shreya Kumari",
+    "name": "Shreya Kumari Singh",
     "side": "groom",
     "relation": "Sawan’s sister-in-law",
     "traits": ["helpful", "hardworking", "caring", "patient"],
@@ -1470,7 +1470,7 @@
   },
   {
     "id": "relation-mani-shankar",
-    "name": "Mani Shankar",
+    "name": "Mani Shankar Shahi",
     "side": "groom",
     "relation": "Sujata Sinha’s husband; Yashika’s father",
     "traits": [],
@@ -1570,7 +1570,7 @@
   },
   {
     "id": "relation-nishu",
-    "name": "Nishu",
+    "name": "Nishu Kumari",
     "side": "groom",
     "relation": "Archana Kumari’s daughter; elder sister of Anoop Patel and sister of Neelu",
     "traits": [],
@@ -1675,7 +1675,7 @@
   },
   {
     "id": "relation-niraj",
-    "name": "Niraj",
+    "name": "Niraj Kumar",
     "side": "groom",
     "relation": "Bobby’s husband; respected son-in-law figure",
     "traits": [],
@@ -1783,7 +1783,7 @@
   },
   {
     "id": "relation-ram",
-    "name": "Ram",
+    "name": "Ram Kumar",
     "side": "groom",
     "relation": "Rosy’s husband; father of their newborn daughter",
     "traits": [],
@@ -1958,7 +1958,7 @@
   },
   {
     "id": "relation-bikash",
-    "name": "Bikash",
+    "name": "Bikash Kumar",
     "side": "groom",
     "relation": "Distant relative of Sawan",
     "traits": [],
@@ -1981,7 +1981,7 @@
   },
   {
     "id": "friend-rakesh",
-    "name": "Rakesh",
+    "name": "Rakesh Raushan",
     "side": "groom",
     "relation": "Sawan's close friend and former Hyderabad roommate, treated like a younger brother",
     "aliases": [],
