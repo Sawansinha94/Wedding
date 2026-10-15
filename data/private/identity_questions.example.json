@@ -1,1 +1,14 @@
-
+{
+  "groom-uncle": [
+    {
+      "question": "An agreed private family question that is not publicly known?",
+      "answer_sha256": "REPLACE_WITH_HASH",
+      "strong": true
+    },
+    {
+      "question": "A second privately agreed question?",
+      "answer_sha256": "REPLACE_WITH_HASH",
+      "strong": true
+    }
+  ]
+}
