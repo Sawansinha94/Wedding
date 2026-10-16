@@ -1856,7 +1856,7 @@
   },
   {
     "id": "relation-rosaline-seth",
-    "name": "Rosaline Seth",
+    "name": "Rosalin Seth",
     "side": "groom",
     "relation": "Like a sister to Sawan; Ram’s wife; Anji’s daughter; Chiku’s elder sister",
     "traits": [],
@@ -1966,8 +1966,8 @@
     "respect_guidance": "Use especially respectful, warm, affectionate family language throughout. Ask about health and well-being naturally. Invite with humility and genuine affection. Adapt wording to the guest-selected language (English, Hindi, Odia, Telugu), retaining the word Pranam."
   },
   {
-    "id": "relation-chiku",
-    "name": "Chiku",
+    "id": "relation-chinmay",
+    "name": "Chinmay",
     "side": "groom",
     "relation": "Rosy’s younger brother; Anji’s son",
     "traits": [],
