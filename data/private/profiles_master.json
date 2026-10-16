@@ -2125,6 +2125,439 @@
     },
     "source_type": "sawan_personal_narration",
     "review_status": "pending_owner_review"
+  },
+  {
+    "id": "colleague-gangadhara-hiremath",
+    "name": "Gangadhara Hiremath",
+    "aliases": [
+      "Ganga",
+      "Gangadhar Hiremath",
+      "Gangadhar"
+    ],
+    "relation": "Senior Capgemini management leader and respected mentor",
+    "traits": [
+      "handsome",
+      "supportive",
+      "patient",
+      "polite",
+      "approachable",
+      "encouraging",
+      "thoughtful"
+    ],
+    "bio": "A respected leader in Capgemini management. Sawan met him during his Hyderabad visit in August 2026 and appreciated their extensive conversation. He listens calmly to team concerns, helps resolve issues, guides individuals across domains, and participates in regular Wednesday discussions. He actively encourages learning AI, LLMs and generative AI, takes interest in the team's ideas, and helps the team grow.",
+    "shared_memories": [
+      "Met and had an extensive discussion during his Hyderabad visit in August 2026.",
+      "Regular Wednesday team conversations about issues, improvements, and learning."
+    ],
+    "conversation_style": "Highly respectful, professional, warm and sincerely grateful; do not mention his exact job title.",
+    "wedding_encouragement": "Invite him with special respect as an honored chief guest to Sawan and Pratibha's wedding on 24 November 2026 in Ranchi. Express that his presence would be a great honor and that Sawan would be deeply grateful. Thank him for supporting the project, encouraging GenAI learning, listening to ideas and helping the team grow. Persuade graciously without pressure.",
+    "verification_question_candidates": [],
+    "side": "groom",
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review"
+  },
+  {
+    "id": "colleague-neeraj-kumar",
+    "name": "Neeraj Kumar",
+    "aliases": [
+      "Neeraj"
+    ],
+    "relation": "Respected senior Capgemini colleague, formerly on Sawan's team and now working on the CDO side",
+    "traits": [
+      "polite",
+      "soft-spoken",
+      "friendly",
+      "approachable",
+      "humble",
+      "respectful"
+    ],
+    "bio": "Previously worked alongside Sawan's team at Capgemini and now works on the CDO side in a senior role. Based onsite in the United States. They occasionally stay in touch, including through Ravindra Sharma. Despite his senior position, he speaks gently and treats colleagues like friends. Sawan regards him as one of the best people he has met at Capgemini.",
+    "conversation_style": "Very respectful, friendly, warm and appreciative; acknowledge his seniority without excessive formality.",
+    "wedding_encouragement": "Respectfully invite him to Sawan and Pratibha's wedding on 24 November 2026 in Ranchi. Acknowledge that travel from the United States may be difficult, but say Sawan would be delighted if his schedule or India travel plans allow him to attend. Do not pressure him or assume he can travel.",
+    "verification_question_candidates": [],
+    "side": "groom",
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review",
+    "name_matching": {
+      "preferred_spelling": "Neeraj",
+      "exact_first_name": "neeraj",
+      "do_not_merge_with": [
+        "relation-niraj",
+        "colleague-neraj-kumar"
+      ],
+      "notes": "User confirmed N E E R A J. Niraj is a different person; older 'Neraj' spelling is superseded."
+    }
+  },
+  {
+    "id": "colleague-james-vikram",
+    "name": "James Vikram",
+    "side": "groom",
+    "relation": "Recently joined Capgemini project manager and colleague",
+    "aliases": [],
+    "traits": [
+      "involved",
+      "proactive",
+      "encouraging",
+      "collaborative",
+      "attentive",
+      "dedicated"
+    ],
+    "bio": "Recently joined Sawan's team in a management role. He is making a strong effort to understand the project, its departments and account-wide activities. Despite being a manager, he actively participates in team matters, seeks to understand situations, encourages colleagues and stays engaged with the work.",
+    "conversation_style": "Respectful, warm, professional and appreciative; recognize his involvement without describing him as a portfolio manager.",
+    "wedding_encouragement": "Invite him respectfully to Sawan and Pratibha's wedding on 24 November 2026 at Swastik Foundation, Ranchi. Thank him for engaging with the team and warmly express that Sawan would be delighted by his presence; do not pressure.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review"
+  },
+  {
+    "id": "colleague-ravi-gabra",
+    "name": "Ravi Gabra",
+    "side": "groom",
+    "relation": "Senior Capgemini management leader on the CDO side",
+    "aliases": [],
+    "traits": [
+      "supportive",
+      "attentive",
+      "encouraging",
+      "appreciative"
+    ],
+    "bio": "Has discussed Sawan's PowerPoint presentations several times, was impressed by his PPT-making skills and asked how he created them. Listens to the team, supports colleagues and promotes their work.",
+    "conversation_style": "Highly respectful, professional, appreciative.",
+    "wedding_encouragement": "Invite respectfully to the wedding; convey gratitude for his encouragement and support.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review"
+  },
+  {
+    "id": "colleague-kedharnath-rachakonda",
+    "name": "Kedharnath Rachakonda",
+    "side": "groom",
+    "relation": "Capgemini colleague and close office friend",
+    "aliases": [
+      "Kedar",
+      "Kedarnath Rachakonda"
+    ],
+    "traits": [
+      "hardworking",
+      "diligent",
+      "supportive",
+      "friendly"
+    ],
+    "bio": "Manages many responsibilities diligently. Recently learned to drive and purchased a car. Shares tea breaks, laughter and jokes in the office with Sawan and Ravi.",
+    "conversation_style": "Friendly, affectionate, gently humorous.",
+    "wedding_encouragement": "Congratulate him on his car and learning to drive, wish him safe driving and wellbeing for his family; enthusiastically encourage him to attend the wedding.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review"
+  },
+  {
+    "id": "family-friend-dinesh",
+    "name": "Dinesh S",
+    "side": "groom",
+    "relation": "Longtime neighbor and younger-brother-like family member",
+    "aliases": [],
+    "traits": [
+      "hardworking",
+      "loyal",
+      "supportive",
+      "brotherly"
+    ],
+    "bio": "Has lived next to Sawan's family for many years, works with their organization and has supported the family for a long time. They share many occasions and fond memories; Sawan considers him family.",
+    "conversation_style": "Very warm, affectionate, brotherly, Hindi welcome.",
+    "wedding_encouragement": "Thank him for his long support and ask him to help plan, prepare and participate in every wedding function as a core family member.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review"
+  },
+  {
+    "id": "family-friend-s-rahul",
+    "name": "S Rahul",
+    "side": "groom",
+    "relation": "Dinesh's elder brother and brother-like family friend",
+    "aliases": [
+      "Rahul",
+      "S. Rahul"
+    ],
+    "traits": [
+      "polite",
+      "quiet",
+      "respectful",
+      "helpful",
+      "good teacher"
+    ],
+    "bio": "A soft-spoken, respectful person who has supported the family. Tutors several students, including Sawan's relative Mona.",
+    "conversation_style": "Warm, brotherly, affectionate and respectful.",
+    "wedding_encouragement": "Give Sawan's love; encourage him to plan early and participate in all wedding ceremonies and preparations.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review"
+  },
+  {
+    "id": "family-friend-rajnish-kumar-nishu",
+    "name": "Rajnish Kumar",
+    "side": "groom",
+    "relation": "Brother-like member of Sawan's household; distinct from college friend Rajnish",
+    "aliases": [
+      "Nishu",
+      "Niswa",
+      "Rajneesh Kumar"
+    ],
+    "traits": [
+      "hardworking",
+      "strong",
+      "helpful",
+      "dependable",
+      "family-oriented"
+    ],
+    "bio": "Has lived with and supported Sawan's family for many years; Sawan's father treated him like a son. Manages family work in Jharsuguda. Sawan has watched him grow into a capable adult, and the family teases him affectionately.",
+    "conversation_style": "Use Hindi, affectionate brotherly humor and warmth.",
+    "wedding_encouragement": "Treat him as a central family member who will help organize and attend all wedding ceremonies.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review",
+    "name_matching": {
+      "do_not_merge_with": [
+        "friend-rajnish"
+      ],
+      "notes": "Do not confuse with Sawan's B.Tech friend Rajnish."
+    }
+  },
+  {
+    "id": "family-subham-sinha",
+    "name": "Subham Sinha",
+    "side": "groom",
+    "relation": "Son of Vijay Kumar; younger brother of Priya and Bobby",
+    "aliases": [
+      "Chiku",
+      "Subham"
+    ],
+    "traits": [
+      "introverted",
+      "quiet",
+      "respectful",
+      "kind"
+    ],
+    "bio": "Known to Sawan since childhood. Quiet and introverted but respectful. Called Chiku; this is a different person from the Chiku already present in the original profiles.",
+    "conversation_style": "Gentle, reassuring, supportive and familiar.",
+    "wedding_encouragement": "Encourage him to set aside time, plan his visit and enjoy the wedding; reassure him not to worry about work or job concerns during the celebration.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review",
+    "name_matching": {
+      "do_not_merge_with": [
+        "relation-chiku"
+      ],
+      "notes": "Chiku is ambiguous; distinguish using full name and family context."
+    }
+  },
+  {
+    "id": "colleague-rakesh-pending",
+    "name": "Rakesh",
+    "side": "groom",
+    "relation": "Relationship details not confirmed",
+    "aliases": [],
+    "traits": [],
+    "bio": "Mentioned in an earlier wedding-profile discussion; further biographical details are not reliably available.",
+    "conversation_style": "Polite, neutral; do not invent familiarity.",
+    "wedding_encouragement": "Invite politely once identity and details are confirmed.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "needs_more_information"
+  },
+  {
+    "id": "friend-farhan-akhtar",
+    "name": "Farhan Akhtar",
+    "side": "groom",
+    "relation": "Sawan's close B.Tech friend and former college roommate",
+    "aliases": [],
+    "traits": [
+      "sweet",
+      "handsome",
+      "affectionate",
+      "friendly",
+      "humorous",
+      "brotherly"
+    ],
+    "bio": "Farhan and Sawan studied B.Tech together and were roommates during college. They shared a very close friendship, countless jokes and laughter, and late nights studying together for semester examinations. Sawan fondly remembers a time when their group teased Farhan together in good fun, although the exact incident has not been specified. Farhan speaks very affectionately and treats Sawan like a brother.",
+    "shared_memories": [
+      "Late-night group study sessions during semester exams.",
+      "College roommate days filled with laughter and friendly teasing.",
+      "A memorable occasion when the friends all teased Farhan; do not invent details of the incident."
+    ],
+    "conversation_style": "Warm, playful, nostalgic, affectionate and brotherly. Speak naturally in English. Recall late-night semester study sessions and good-natured college jokes. Ask whether he remembers the time everyone teased him, without inventing what happened.",
+    "conversation_starters": [
+      "Farhan, do you remember those nights when we stayed up studying for semester exams and ended up laughing half the time?",
+      "Do you remember that day when the whole group teased you? Sawan still smiles thinking about our college days."
+    ],
+    "wedding_encouragement": "Invite Farhan enthusiastically to Sawan and Pratibha's wedding on November 24, 2026, in Ranchi, wherever he currently lives. Explain that Sawan deeply wants his old roommate and brother-like friend there to relive their college memories. Encourage him to plan travel early, without guilt or pressure.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review"
+  },
+  {
+    "id": "colleague-vikas-ashutosh",
+    "name": "Vikas Ashutosh",
+    "side": "groom",
+    "relation": "Sawan's former manager at Capgemini",
+    "aliases": [
+      "Vikas"
+    ],
+    "traits": [
+      "kind",
+      "helpful",
+      "supportive",
+      "sweet",
+      "approachable",
+      "excellent team leader"
+    ],
+    "bio": "Vikas Ashutosh previously managed Sawan at Capgemini. Sawan remembers him as an exceptionally kind, helpful and supportive manager who handled the team very well. He now holds a higher-level position and has moved to another team, but Sawan and his former teammates still remember and appreciate his leadership and continued support.",
+    "conversation_style": "Warm, respectful, appreciative and professional, with a personal touch. Speak in English. Thank him for his leadership, kindness and lasting support. Do not confuse him with Vikash, Sawan's B.Tech friend and distant relative.",
+    "conversation_starters": [
+      "Vikas, Sawan still remembers how thoughtfully you managed and supported the team at Capgemini.",
+      "Even though you've moved to another team, your former teammates still speak fondly of your leadership."
+    ],
+    "wedding_encouragement": "Personally and warmly encourage Vikas Ashutosh to attend Sawan and Pratibha's wedding on November 24, 2026, in Ranchi. Convey that Sawan would be genuinely happy to celebrate with a former manager whose guidance and support meant so much. Respect his schedule and travel constraints without pressuring him.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review"
+  },
+  {
+    "id": "colleague-mayur-wipro",
+    "name": "Mayur",
+    "side": "groom",
+    "relation": "Sawan's former manager and longtime colleague at Wipro",
+    "aliases": [],
+    "traits": [
+      "very helpful",
+      "supportive",
+      "collaborative",
+      "understanding",
+      "dependable"
+    ],
+    "bio": "Mayur was Sawan's manager at Wipro, where they worked together for a long time. They collaborated closely on many assignments, sat together to solve problems, shared knowledge and information, and supported one another. Sawan remembers many good moments with their team. Mayur handled difficult situations well, and Sawan greatly values their mutual support and shared professional memories.",
+    "conversation_style": "Warm, respectful, appreciative and professional, in English. Naturally recall their Wipro teamwork, knowledge sharing, mutual support and the good memories they made together.",
+    "conversation_starters": [
+      "Mayur, Sawan fondly remembers the time you worked together at Wipro and supported each other through so many assignments.",
+      "He especially appreciates how thoughtfully you handled difficult situations and how much the team learned together."
+    ],
+    "wedding_encouragement": "Respectfully and personally invite Mayur to Sawan and Pratibha's wedding on November 24, 2026, in Ranchi. Emphasize that reconnecting and celebrating with a former manager and valued teammate would mean a lot to Sawan. Be considerate of Mayur's availability and travel plans.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review"
+  },
+  {
+    "id": "colleague-shiva-anna-wipro",
+    "name": "Shiva",
+    "side": "groom",
+    "relation": "Sawan's senior Wipro colleague, former team lead, mentor and elder-brother-like friend",
+    "aliases": [
+      "Shiva Anna"
+    ],
+    "traits": [
+      "very helpful",
+      "polite",
+      "handsome",
+      "supportive",
+      "patient listener",
+      "knowledgeable",
+      "approachable"
+    ],
+    "bio": "Shiva Anna was senior to Sawan and served as a team lead when they worked together at Wipro. They formed a strong brotherly bond, spent a great deal of time together, and often worked late into the night on their project. Shiva affectionately addressed Sawan as 'Thammudu' (younger brother), a nickname Sawan still remembers with deep affection. Sawan learned a great deal from him and continues to regard him as someone he can approach for advice and share his thoughts with, because Shiva listens patiently and speaks politely. They have stayed in occasional contact after Wipro and have met again to share tea. Sawan fondly remembers their connection and the time they spent together.",
+    "conversation_style": "English, very warm, respectful and affectionate, with the natural familiarity of an elder brother and mentor. Address him as 'Shiva Anna'. Recall his affectionate 'Thammudu' nickname for Sawan, their late-night Wipro project work, tea together, the guidance Sawan received and their lasting bond. Show genuine gratitude without excessive flattery or revealing private details to others.",
+    "conversation_starters": [
+      "Shiva Anna, Sawan still remembers how you used to call him 'Thammudu' during your Wipro days.",
+      "He often recalls the late nights you worked together, everything he learned from you, and the tea you shared even after Wipro."
+    ],
+    "wedding_encouragement": "Invite Shiva Anna especially warmly and respectfully to Sawan and Pratibha's wedding on November 24, 2026, in Ranchi. Convey that Sawan has remembered him often, that their elder-brother/younger-brother connection remains important, and that Sawan sincerely hopes Shiva Anna will make the effort to attend. Encourage attendance with affectionate persistence, but respect his practical constraints and final decision.",
+    "verification_question_candidates": [],
+    "approved_for_guests": true,
+    "visibility_policy": {
+      "default": "owner_only",
+      "share_with_subject_after_verified_login": true,
+      "public_summary_approved": true
+    },
+    "source_type": "sawan_personal_narration",
+    "review_status": "pending_owner_review"
   }
+
+
 ]
 
