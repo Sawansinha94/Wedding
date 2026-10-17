@@ -1310,35 +1310,285 @@
       "use_nicknames_only_when_natural": true
     }
   },
-  {
-    "id": "bride-pradeep-kumar",
-    "name": "Pradeep Kumar",
-    "side": "bride",
-    "relation": "Pratibha's father and Sawan's future father-in-law",
-    "traits": [
-      "experienced",
-      "humorous",
-      "curious",
-      "enterprising",
-      "family-loving",
-      "thoughtful",
-      "handsome"
-    ],
-    "bio": "Lives in Ranchi with his family and operates a large wholesale hardware, tools and paints shop. Enjoys sweets and good food, driving, learning and experimenting with new things, and spending time with family. Welcomes Sawan and Pratibha’s marriage.",
-    "conversation_style": "Polite, respectful, affectionate; greet with “Pranam Papaji” or “Papaji, pranam.” Speak Hindi when preferred. Begin with “Pranam” and maintain especially warm, respectful language throughout.",
-    "wedding_encouragement": "Express gratitude and respect; wish him good health and offer reassurance without guaranteeing outcomes.",
-    "approved_for_guests": true,
-    "visibility_policy": {
-      "default": "owner_only",
-      "share_with_subject_after_verified_login": true,
-      "public_summary_approved": true
-    },
-    "source_type": "sawan_personal_narration",
-    "review_status": "pending_owner_review",
-    "preferred_greeting": "Pranam",
-    "greeting_priority": "Always open the first greeting with Pranam, using a respectful kinship title when appropriate.",
-    "respect_guidance": "Use especially respectful, warm, affectionate family language throughout. Ask about health and well-being naturally. Invite with humility and genuine affection. Adapt wording to the guest-selected language (English, Hindi, Odia, Telugu), retaining the word Pranam."
+{
+  "id": "bride-pradeep-kumar",
+  "name": "Pradeep Kumar",
+  "side": "bride",
+  "relation": "Pratibha's father, Sawan's future father-in-law, lovingly addressed as Papaji",
+  "aliases": [
+    "Papaji",
+    "Papa",
+    "Pradeep Ji",
+    "Damadu ke Papaji"
+  ],
+  "traits": [
+    "experienced",
+    "humorous",
+    "curious",
+    "enterprising",
+    "family-loving",
+    "thoughtful",
+    "handsome",
+    "charming",
+    "calm",
+    "cool-headed",
+    "adventurous",
+    "food-loving",
+    "sport-loving",
+    "friendly",
+    "affectionate",
+    "playful",
+    "nostalgic"
+  ],
+  "bio": "Pradeep Kumar lives in Daladali, Ranchi, with his beautiful wife and family. He operates a large wholesale business dealing in hardware, tools and paints. He is an experienced, thoughtful, handsome, calm and humorous gentleman who enjoys exploring new places, driving cars, adventurous activities, experimenting with new things, trying different dishes, eating sweets and spending quality time with family and friends. He is a big cricket fan who enjoys watching international cricket on television and also loves badminton. He enjoys friendly conversations, sharing memories from his younger days and laughing with family. He recently visited Durga Puja pandals. He is the main organiser of the bride-side wedding celebrations and warmly welcomes the marriage of his daughter Pratibha with Sawan. His family describes him as affectionate, mischievous, charming and full of interesting stories.",
+  "personal_context": {
+    "residence": "Daladali, Ranchi, Jharkhand",
+    "profession": "Owner and operator of a large wholesale hardware, tools and paints business",
+    "spouse": "Smt. Swarnlata Kumari",
+    "children": "Beautiful daughters, including Pratibha, and a handsome, playful son",
+    "son_in_law": "Sawan, whom he affectionately calls Damadu",
+    "family_role": "Father of the bride and principal organiser of the bride-side wedding arrangements",
+    "personality": "Calm, cool, experienced, humorous, affectionate, adventurous and naturally charming",
+    "interests": [
+      "Driving cars",
+      "Exploring new destinations",
+      "Adventurous activities",
+      "Watching international cricket",
+      "Playing and following badminton",
+      "Trying different cuisines",
+      "Eating sweets",
+      "Enjoying Hyderabad Dum Biryani",
+      "Visiting Durga Puja pandals",
+      "Spending time with family",
+      "Chit-chatting with friends",
+      "Remembering stories from his youth",
+      "Playful family teasing",
+      "Learning and experimenting with new things"
+    ]
   },
+  "verification_question_candidates": [
+      {
+        "question": "Please identify if it really Mr. Pradeep !! Which family trip was cancelled recently, name the place?",
+        "expected_answer": "Ujjain",
+        "security_level": "low; not authentication"
+      }
+    ],
+  "family_memories": [
+    {
+      "id": "young_chocolate_boy",
+      "title": "The Handsome Chocolate Boy",
+      "story": "In his younger days, Pradeep Kumar was known for his handsome appearance and charming personality. Sawan playfully describes him as a chocolate boy and something of a cowboy who attracted admiration from beautiful girls. Eventually, he met the woman who became his beautiful wife, Swarnlata Kumari.",
+      "conversation_guidance": "Playfully ask Papaji about his younger days, his style, his adventures and whether he really was the chocolate boy of his generation. Keep the teasing affectionate and respectful.",
+      "sample_questions": [
+        "Papaji, pranam! Suna hai jawani mein aap Barh ke chocolate boy hua karte the. Kitni sachchai hai is kahani mein?",
+        "Papaji, aapke zamane mein aapki personality ka kya raaz tha?",
+        "Papaji, aapki jawani ke kuch interesting kisse sunaiye na!"
+      ]
+    },
+    {
+      "id": "jaymala_first_eye_contact",
+      "title": "The Unforgettable Jaymala",
+      "story": "According to a humorous family recollection, during Pradeep Kumar and Swarnlata Kumari's wedding Jaymala ceremony, their eyes met in a particularly memorable moment. His bride looked at him with her large, beautiful and intense eyes. He was reportedly so nervous that he struggled to maintain eye contact for several days afterward. This is remembered affectionately as a funny moment in their love story.",
+      "conversation_guidance": "Bring up the Jaymala memory playfully and invite him to share his own version. Do not present humorous exaggerations as independently verified facts.",
+      "sample_questions": [
+        "Papaji, ek baat bataiye, Jaymala ke waqt Mummyji ki badi-badi aankhon se sach mein darr gaye the kya?",
+        "Suna hai shaadi ke baad kai din tak aankh milane ki himmat nahi hui! Kya kahani thi Papaji?",
+        "Papaji, pehli nazar mein pyaar hua tha ya thoda darr bhi laga tha?"
+      ]
+    },
+    {
+      "id": "beautiful_couple",
+      "title": "A Beautiful Couple and Their Children",
+      "story": "Pradeep Kumar and Swarnlata Kumari are lovingly described as a beautiful couple. Sawan jokingly says that their beautiful daughters and handsome, naughty son are living proof of their parents' charm and good looks.",
+      "conversation_guidance": "Compliment the couple sincerely. Occasionally joke that the family's beauty and mischievous nature must have been inherited from both parents.",
+      "sample_questions": [
+        "Papaji, aap aur Mummyji ki jodi itni sundar hai, tabhi toh bachche bhi itne sundar hain!",
+        "Papaji, ek baat bataiye, bete ki shararat aap par gayi hai ya Mummyji par?",
+        "Mummyji kehti hain beta aap par gaya hai, lekin mujhe toh lagta hai asli shararat Mummyji ki taraf se aayi hai!"
+      ]
+    },
+    {
+      "id": "first_visit_to_sawan_home",
+      "title": "The Sudden Hailstorm at Sawan's Home",
+      "story": "During Pradeep Kumar's first visit to Sawan's family home, the weather was extremely hot. The family was enjoying lunch under a tree when a branch suddenly fell near his wife, frightening her. Pradeep Kumar playfully teased her about the incident. Soon afterward, sudden heavy rain and a strong hailstorm struck, with large hailstones falling. Everyone hurried to find shelter while carrying their plates of food. The unexpected weather and amusing reactions made the visit unforgettable.",
+      "conversation_guidance": "Recall the incident vividly and affectionately. Ask how he remembers the sudden change from scorching heat to heavy rain and hailstones. Gently tease him about joking with Mummyji before everyone had to run for shelter.",
+      "sample_questions": [
+        "Papaji, yaad hai Sawan ke ghar pe ped ke neeche lunch kar rahe the aur achanak daali gir gayi thi?",
+        "Papaji, Mummyji darr gayi thi aur aap unko chhed rahe the! Phir jab ole girne lage toh plate lekar kaun sabse pehle bhaaga?",
+        "Papaji, itni garmi ke baad achanak itne bade-bade ole! Aisi welcome party pehle kabhi mili thi kya?"
+      ]
+    },
+    {
+      "id": "first_meeting_with_damadu",
+      "title": "The First Impression of Damadu",
+      "story": "Pradeep Kumar affectionately calls Sawan his Damadu. Sawan remembers meeting Pradeep Kumar for the first time and noticing his handsome appearance, good character, calm personality and strong family values. Sawan felt he could understand where Pratibha inherited her beauty and values. Sawan is looking forward to spending many relaxed hours talking with Papaji and listening to his experiences.",
+      "conversation_guidance": "Invite Papaji to share his own first impression of Sawan. Convey Sawan's respect and admiration naturally without excessive flattery.",
+      "sample_questions": [
+        "Papaji, jab aapne apne Damadu ko pehli baar dekha tha, toh mann mein kya chal raha tha?",
+        "Papaji, Sawan toh aapki personality se bahut impressed tha. Aapko Damadu kaisa laga tha?",
+        "Papaji, Damadu ke saath baithkar bahut saari baatein karni hain. Aapke paas toh kahaniyon ka poora khazana hoga!"
+      ]
+    }
+  ],
+  "future_family_plans": {
+    "hyderabad_visit": {
+      "status": "planned_after_marriage",
+      "description": "After the wedding, Sawan and Pratibha would love to welcome Papaji and family to Hyderabad. They hope to explore the city together, enjoy famous Hyderabad Dum Biryani, sample different sweets and dishes, go sightseeing and spend quality time laughing and talking as a family.",
+      "conversation_starters": [
+        "Papaji, shaadi ke baad Hyderabad kab aa rahe hain? Damadu aur beti dono intezaar karenge!",
+        "Papaji, Hyderabad ki Dum Biryani aur mithaiyon ka taste test karna hai. Taiyaar hain na?",
+        "Papaji, Hyderabad mein ghoomenge, khayenge aur khoob hasi-mazaak karenge!"
+      ]
+    },
+    "talcher_visit": {
+      "description": "Encourage Papaji to visit Talcher, Odisha, spend time with Sawan's family and enjoy local delicacies, particularly Chhena Poda.",
+      "conversation_starters": [
+        "Papaji, Talcher ka Chhena Poda kabhi taste kiya hai?",
+        "Papaji, Talcher bhi aana hai. Wahan ki mithai aur family ke saath baithak ka alag hi maza hai!",
+        "Papaji, ek trip Hyderabad aur ek Talcher ki pakki samjhein?"
+      ]
+    }
+  },
+  "conversation_style": {
+    "tone": "Extremely respectful, affectionate, cheerful, humorous, family-oriented and gently teasing",
+    "preferred_language": "Hindi, or the visitor-selected language",
+    "preferred_greeting": "Pranam Papaji",
+    "greeting_priority": "Always begin the first greeting with Pranam Papaji. Retain the word Pranam in English, Hindi, Odia and Telugu conversations.",
+    "addressing": "Use Papaji naturally and consistently. Never address him casually or disrespectfully.",
+    "humor": "Warm family humor, especially about his chocolate-boy days, his romantic wedding memories, his wife's playful complaints, the naughty son and the unforgettable hailstorm.",
+    "conversation_depth": "Encourage longer, engaging conversations by asking open-ended questions, remembering his responses and inviting stories from his life.",
+    "nostalgia": "Frequently but naturally create opportunities for him to remember his youth, marriage, family experiences, travels and funny incidents.",
+    "respect_boundaries": "Never embarrass him, insult his wife or children, or make uncomfortable personal remarks. Reduce teasing if he appears uncomfortable.",
+    "avoid_repetition": "Do not repeat the same story or question unnecessarily. Use different memories and topics across conversations.",
+    "natural_flow": "Do not reveal all stored memories immediately. Introduce one relevant memory at a time and follow his responses."
+  },
+  "conversation_starters": [
+    "Pranam Papaji! Kaise hain aap? Tabiyat aur sab kuch badhiya hai na?",
+    "Papaji, shaadi ki taiyari kaisi chal rahi hai? Zyada tension toh nahi le rahe?",
+    "Papaji, aajkal kaunsa cricket match dekh rahe hain?",
+    "Papaji, cricket mein aapki favourite team aur player kaun hain?",
+    "Papaji, badminton khelne ka mauka milta hai aajkal?",
+    "Papaji, aapko driving bahut pasand hai. Sabse yaadgaar road trip kaunsi rahi?",
+    "Papaji, aapke bachpan aur jawani ki koi zabardast kahani sunaiye!",
+    "Papaji, Durga Puja mein kaun-kaun se pandal ghoome the?",
+    "Papaji, aapko kaunsi mithai sabse zyada pasand hai?",
+    "Papaji, kabhi Talcher ka Chhena Poda khaya hai?",
+    "Papaji, Hyderabad ki Dum Biryani khane kab aa rahe hain?",
+    "Papaji, Mummyji ke saath aapki sabse yaadgaar trip kaunsi thi?",
+    "Papaji, itne saalon se business sambhal rahe hain, Damadu ko bhi kuch business tips dijiye!"
+  ],
+  "playful_teasing": {
+    "enabled": true,
+    "intensity": "moderate, affectionate and respectful",
+    "themes": [
+       {
+        "topic": "Love at first sight",
+        "example": "Papaji, Appko pehli nazzar mein pyaar hogaya tha ya dar lag gaya tha mummyji ko dekh kar?"
+      },
+      {
+        "topic": "Chocolate-boy days",
+        "example": "Papaji, suna hai jawani mein aap bade chocolate boy the. Mummyji ko impress karne ke liye kya special kiya tha?"
+      },
+      {
+        "topic": "Beautiful and spirited wife",
+        "example": "Papaji, Mummyji itni sundar hain aur kabhi-kabhi gussa bhi jaldi ho jaata hai. Aap itne calm kaise rehte hain? Damadu ko bhi kuch tips dijiye!"
+      },
+      {
+        "topic": "Secret of a happy marriage",
+        "example": "Papaji, itni khoobsurat aur strong personality wali Mummyji ke saath itne saal kaise manage kiya? Koi secret formula hai kya?"
+      },
+      {
+        "topic": "Naughty son",
+        "example": "Papaji, Mummyji kehti hain beta aap par gaya hai. Lekin kahin aisa toh nahi ki saari shararat Mummyji se hi aayi ho?"
+      },
+      {
+        "topic": "Jaymala eye contact",
+        "example": "Papaji, Jaymala mein Mummyji ki aankhon se itna darr gaye the kya ki kai din tak aankh hi nahi mila paaye?"
+      },
+      {
+        "topic": "Hailstorm lunch",
+        "example": "Papaji, pehle Mummyji ko chhed rahe the aur phir jab ole barse toh plate lekar khud bhi bhaagna pada! Kaisa laga tha?"
+      },
+      {
+        "topic": "Damadu's first impression",
+        "example": "Papaji, sach-sach bataiye, pehli baar Damadu ko dekhkar kya socha tha? Interview mein pass kiya tha ya kuch doubt tha?"
+      },
+      {
+        "topic": "Hyderabad food challenge",
+        "example": "Papaji, Hyderabad mein Biryani aur mithaiyon ka competition rakhenge. Dekhte hain Damadu zyada khata hai ya Papaji!"
+      }
+    ],
+    "rules": [
+      "Always maintain respect for Papaji and Mummyji.",
+      "Use teasing to encourage laughter, never embarrassment.",
+      "Never imply that Mummyji is genuinely difficult or that their relationship is troubled.",
+      "Treat family jokes and exaggerated stories as affectionate recollections, not established facts.",
+      "Invite Papaji to correct or expand any family story.",
+      "Stop teasing and change topics if he seems uncomfortable.",
+      "Do not make romantic or suggestive comments that cross family boundaries."
+    ]
+  },
+  "wedding_encouragement": {
+    "approach": "Treat Papaji as the central and respected father of the bride, not an ordinary guest who needs an invitation.",
+    "message": "Papaji, yeh toh aapki apni beti aur Damadu ki shaadi hai. Aapko invitation ki kya zaroorat! Aapka aashirwad hi sabse badi khushi hai.",
+    "stress_reassurance": "Papaji, shaadi ki taiyari mein zyada tension mat lijiye. Apni sehat ka bhi dhyan rakhiye. Sab milkar taiyari sambhalenge aur mil-julkar har dikkat ka hal nikaalenge.",
+    "blessings": "Respectfully request his blessings for Pratibha and Sawan and wish him good health, happiness and peace.",
+    "avoid": [
+      "Do not treat him as a guest requiring formal persuasion.",
+      "Do not guarantee that every wedding arrangement will be perfect.",
+      "Do not dismiss genuine concerns about wedding preparations.",
+      "Do not pressure him to make travel commitments."
+    ]
+  },
+  "special_conversation_instructions": [
+    "Always open the first interaction with Pranam Papaji.",
+    "Ask about his health and well-being naturally.",
+    "Show genuine respect for his experience and responsibilities.",
+    "Appreciate his efforts in organising the bride-side wedding.",
+    "Remind him affectionately not to take excessive stress about wedding arrangements.",
+    "Ask about his favourite cricket teams, international matches and badminton.",
+    "Encourage him to talk about driving, travel and adventurous experiences.",
+    "Ask about his business experiences and invite advice for his Damadu.",
+    "Occasionally recall his chocolate-boy days and invite his own version of those memories.",
+    "Bring up the memorable Jaymala eye-contact story only in a light-hearted context.",
+    "Recall the lunch-under-the-tree and sudden hailstorm incident.",
+    "Playfully ask how he and Mummyji manage their different personalities.",
+    "Invite him to share marriage advice with Sawan.",
+    "Ask about his first impression of Sawan.",
+    "Mention that Sawan looks forward to long conversations with him.",
+    "Encourage the planned family visit to Hyderabad after the wedding.",
+    "Ask whether he has tasted Talcher's Chhena Poda.",
+    "Encourage him to visit Talcher with family.",
+    "Use affectionate Hindi expressions when appropriate.",
+    "Do not overload a single response with multiple unrelated memories.",
+    "Prioritise Papaji's current question or topic over scripted conversation starters.",
+    "Avoid disclosing private family memories to other guests unless separately approved."
+  ],
+  "approved_for_guests": true,
+  "visibility_policy": {
+    "default": "owner_only",
+    "share_with_subject_after_verified_login": true,
+    "public_summary_approved": true,
+    "public_summary": "Pradeep Kumar is Pratibha's father, a respected businessman from Ranchi and a loving family man who enjoys food, travel, cricket, badminton and spending time with loved ones.",
+    "private_memories": [
+      "young_chocolate_boy",
+      "jaymala_first_eye_contact",
+      "first_visit_to_sawan_home",
+      "first_meeting_with_damadu",
+      "playful_teasing"
+    ]
+  },
+  "source_type": "sawan_personal_narration",
+  "review_status": "pending_owner_review",
+  "preferred_greeting": "Pranam Papaji",
+  "greeting_priority": "Always open the first greeting with Pranam, using Papaji as the respectful kinship title.",
+  "respect_guidance": "Use especially respectful, warm and affectionate family language throughout. Ask about health and well-being naturally. Appreciate his role as father of the bride and wedding organiser. Encourage storytelling, nostalgia and gentle family humor. Adapt wording to the guest-selected language (English, Hindi, Odia or Telugu), retaining Pranam. Never sacrifice respect for humor."
+},
+
+  
+
+
+  
   {
     "id": "bride-shipra-patel",
     "name": "Shipra Patel",
