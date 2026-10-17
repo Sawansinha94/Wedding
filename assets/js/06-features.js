@@ -79,5 +79,5 @@
      publishStatus.textContent='Not published: Neon did not confirm the save. Please try again. '+(e.message||'');
    }finally{publish.disabled=false}
  });
- refresh();setInterval(()=>{if(!document.hidden)refresh()},12000);
+ refresh();setInterval(()=>{if(!document.hidden)refresh()},60000);
 })();
